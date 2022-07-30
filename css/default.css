@@ -69,3 +69,10 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.chapter-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
