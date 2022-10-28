@@ -70,3 +70,5 @@ Temporary Items
 # local env files
 
 .env*
+# Local Netlify folder
+.netlify
