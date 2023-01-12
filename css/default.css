@@ -1,83 +1,96 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+:root {
+  /* AV default colors */
+  --color-nightvision-green: #bed12b;
+  --color-gunmetal-gray: #5b5c5a;
+  --color-tan: #aa985e;
+  --color-olive-green: #2d430c;
+  --color-blue: #005d7d;
+  --color-red: #b30838;
+  --color-orange: #ef7623;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddd;
 }
 
 /* Style the side navigation */
 .sidenav {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: blue;
-    overflow-x: hidden;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--color-blue);
+  overflow-x: hidden;
 }
 
 /* Side navigation links */
 .sidenav a {
-    color: white;
-    padding: 16px;
-    text-decoration: none;
-    display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
 }
-
 
 /* Change color on hover */
 .sidenav a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
 
 /* Style the content */
 .content {
-    margin-left: 200px;
-    padding-left: 20px;
-    text-align: center;
+  margin-left: 200px;
+  padding-left: 20px;
+  text-align: center;
 }
 
 .msstate {
-    height: 150px;
-    width: 150px;
+  height: 150px;
+  width: 150px;
 }
 
 .redtext {
-    color: red;
+  color: red;
 }
 
 .bluetext {
-    color: blue;
+  color: blue;
 }
 
 .titles {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .content-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
 }
 
 .chapter-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
 }
 
 .black-border {
-    border: 5px solid black;
+  border: 5px solid black;
 }
 
 .profile-pic {
-    height: 300px;
-    width: 200px;
-    max-width: 100%;
+  height: 300px;
+  width: 200px;
+  max-width: 100%;
 }
