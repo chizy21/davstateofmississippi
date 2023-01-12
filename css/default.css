@@ -49,9 +49,10 @@ body {
 
 /* Style the content */
 .content {
-  margin-left: 200px;
+  margin-left: 262px;
   padding-left: 20px;
   text-align: center;
+  max-width: 1000px;
 }
 
 .davimg img {
@@ -93,8 +94,20 @@ body {
   border: 5px solid black;
 }
 
+.state-convention {
+  width: 945px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .profile-pic {
   height: 300px;
   width: 200px;
   max-width: 100%;
+}
+
+.davnational {
+  margin-bottom: 20px;
 }
