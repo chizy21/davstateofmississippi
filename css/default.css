@@ -24,7 +24,7 @@ body {
 /* Style the side navigation */
 .sidenav {
   height: 100%;
-  width: 200px;
+  width: 275px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -52,6 +52,10 @@ body {
   margin-left: 200px;
   padding-left: 20px;
   text-align: center;
+}
+
+.davimg img {
+  margin: 15px;
 }
 
 .msstate {
