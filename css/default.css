@@ -99,7 +99,8 @@ body {
   border: 5px solid black;
 }
 
-.state-convention {
+.state-convention,
+.national-convention {
   width: 945px;
   align-items: center;
   display: flex;
@@ -114,5 +115,9 @@ body {
 }
 
 .davnational {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-bottom: 20px;
+  align-items: center;
 }
