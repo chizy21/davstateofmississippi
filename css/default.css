@@ -11,6 +11,7 @@
   --color-white: #fff;
   --color-black: #000;
   --bg: #ddd;
+  --color-dark-red: #be0000;
 }
 
 *,
@@ -69,7 +70,7 @@ body {
 }
 
 .redtext {
-  color: red;
+  color: var(--color-dark-red);
 }
 
 .bluetext {
