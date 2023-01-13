@@ -1,5 +1,5 @@
 :root {
-  /* AV default colors */
+  /* DAV default colors */
   --color-nightvision-green: #bed12b;
   --color-gunmetal-gray: #5b5c5a;
   --color-tan: #aa985e;
@@ -7,6 +7,10 @@
   --color-blue: #005d7d;
   --color-red: #b30838;
   --color-orange: #ef7623;
+  /* default colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --bg: #ddd;
 }
 
 *,
@@ -18,7 +22,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ddd;
+  background-color: var(--bg);
 }
 
 /* Style the side navigation */
@@ -35,7 +39,7 @@ body {
 
 /* Side navigation links */
 .sidenav a {
-  color: white;
+  color: var(--color-white);
   padding: 16px;
   text-decoration: none;
   display: block;
@@ -43,7 +47,7 @@ body {
 
 /* Change color on hover */
 .sidenav a:hover {
-  background-color: #ddd;
+  background-color: var(--bg);
   color: black;
 }
 
