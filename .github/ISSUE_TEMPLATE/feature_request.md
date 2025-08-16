@@ -7,14 +7,29 @@ assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+Type of Change
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+New feature
+Bug fix
+Documentation update
+Refactoring
+Hotfix
+Security patch
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+    UI/UX improvement
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+Description
+Testing
+Impact
+Issues / other PRs related
+
+    Resolves #
+
+Additional Information
+Checklist
+
+My code adheres to the coding and style guidelines of the project.
+I have performed a self-review of my own code.
+I have commented my code, particularly in hard-to-understand areas.
+I have made corresponding changes to the documentation.
+My changes generate no errors/warnings/merge conflicts.
