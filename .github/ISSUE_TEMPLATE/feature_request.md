@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Type of Change
+# Type of Change
 
 New feature
 Bug fix
@@ -16,14 +16,14 @@ Refactoring
 Hotfix
 Security patch
 
-    UI/UX improvement
+##    UI/UX improvement
 
 Description
 Testing
 Impact
 Issues / other PRs related
 
-    Resolves #
+##  Resolves #
 
 Additional Information
 Checklist
